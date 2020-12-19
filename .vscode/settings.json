@@ -1,0 +1,27 @@
+{
+    "files.eol": "\n",
+    "editor.formatOnSave": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "terminal.integrated.env.windows": {
+        "PSExecutionPolicyPreference": "RemoteSigned"
+    },
+    "python.linting.lintOnSave": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.pycodestyleEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--ignore=W293, W504",
+        "--max-line-length=150",
+        "--max-complexity=20"
+    ],
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": [
+        "--aggressive",
+        "--aggressive",
+    ],
+    "files.autoGuessEncoding": true,
+    "editor.fontFamily": "Consolas, 游明朝, 'Courier New', monospace",
+    "python.pythonPath": ".env\\Scripts\\python.exe",
+    "autoDocstring.docstringFormat": "google",
+}
