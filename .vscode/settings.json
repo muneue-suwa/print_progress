@@ -22,6 +22,5 @@
     ],
     "files.autoGuessEncoding": true,
     "editor.fontFamily": "Consolas, 游明朝, 'Courier New', monospace",
-    "python.pythonPath": ".env\\Scripts\\python.exe",
     "autoDocstring.docstringFormat": "google",
 }
