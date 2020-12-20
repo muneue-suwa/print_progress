@@ -1,2 +1,9 @@
+# pycache
+print_progress/__pycache__/
+
 # Virtual Environment
 .env/
+
+# setup.py
+dist/
+MANIFEST
