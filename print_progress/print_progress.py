@@ -1,18 +1,18 @@
 class PrintProgress:
-    def __init__(self, progress_message, entire_num=0):
+    def __init__(self, progress_message, entire_num: int = 0) -> None:
         self.PROGRESS_MESSAGE = progress_message
         self.entire_num = entire_num
 
-    def print_start(self):
+    def print_start(self) -> None:
         print(f"{self.PROGRESS_MESSAGE}: ...", end="")
 
-    def print_progress(self, current_num):
+    def print_progress(self, current_num: int) -> None:
         progress_message = f"\r{self.PROGRESS_MESSAGE}: {current_num:2d}"
         if self.entire_num > 0:
             progress_message += f"/{self.entire_num}"
         print(progress_message, end=" ")
 
-    def print_completed(self):
+    def print_completed(self) -> None:
         print("Completed")
 
 
