@@ -5,7 +5,7 @@
 ## Installation
 
 ```shell-session
-pip install -e [THIS_GITHUB_REPOSITORY_URL]
+pip install -e git+https://github.com/dongsiku/print_progress#egg=print-progress
 ```
 
 ## Example
